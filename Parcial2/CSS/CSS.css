@@ -50,6 +50,7 @@ h3{
     padding-bottom: 0px;
     font-size: 15px;
     margin-bottom: 0px;
+    border-style: solid;
 }
 #btn{
     display: flex;
