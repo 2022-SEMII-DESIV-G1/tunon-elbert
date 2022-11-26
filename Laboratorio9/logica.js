@@ -95,7 +95,12 @@ function contar()
         }
     }
     document.getElementById("resultados").innerHTML = "El resultado de la sumatoria es " + mayorTot2
+
     //console.log(mayorTot2);
-   /* for(var t=0;t<ruta.length;t++)
-        console.log(ruta[t]);*/
+   for(var t=0;t<ruta.length;t++)
+   {
+        console.log(ruta[t]);
+        document.getElementById("ruta").innerHTML = ruta[t] + "\n"
+   }
+        
 }
